@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Desarrollo Web</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+       <a href="index.php"><h1>DESARROLLO WEB</h1></a>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">Acerca</a></li>
+        <li><a href="#skills" class="nav-link">Habilidades</a></li>
+        <li><a href="#projects" class="nav-link">Proyectos</a></li>
+        <li><a href="#contact" class="nav-link">Contacto</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+    
+  
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+     <img
+        src="assets/images/desarrollo.png"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">Servicio de Desarrollo Web</h2>
+        <p class="bio-text">
+          Somos un grupo de profesionales dedicados a la programación web. Creamos sitios en Wordpress usando el constructor visual Elementor Pro, también desarrollamos aplicaciones web en PHP.
+        </p>
+      </div>
+    </section>
+
+   
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">Habilidades Principales</h2>
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/elementor.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/wordpress.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/pngegg.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-bootstrap.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/wordpress.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+      
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Mis recientes proyectos</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/proyecto2.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Batifitbuga</h3>
+          <p class="project-details">
+            Transforma tu vida con productos fitness de alta calidad y totalmente naturales. Adelgazar no es una misión imposible, solamente un poco de ayuda para dar el paso.
+          </p>
+          <a href="https://batifitbuga.mpw2.com/" target="_blank" class="project-link">Ver sitio</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/proyecto1.png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Myproject web</h3>
+          <p class="project-details">
+            ¡CONSIGUE TU PAGINA WEB! Hay tres pasos simples: Elige el diseño adecuado para tu negocio. Complete el formulario en menos de un minuto (no se requiere tarjeta de crédito).No te preocupes por el tiempo de espera. En 2 días, estará en línea.
+          </p>
+          <a href="https://myprojectweb.com/" target="_blank" class="project-link">Ver sitio</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/proyecto3.png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">TextilAir</h3>
+          <p class="project-details">
+            Climatización innovadora, económica y duradera mediante conductos textiles
+          </p>
+          <a href="http://textilair.com/" target="_blank" class="project-link">Ver sitio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Comuníquese con nosotros</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/meqdyabw"method="POST" >
+             <div class="form-control">             
+             
+               <label>
+                Su nombre:
+                <input type="text" name="name"  placeholder="Escriba su nombre"
+                class="input-field"
+                required>
+              </label>
+            </div>
+            <div class="form-control">             
+             
+               <label>
+                Su email:
+                <input type="email" name="email"  placeholder="Escriba su email"
+                class="input-field"
+                required>
+              </label>
+            </div>
+            <div class="form-control">
+              <label for="message">Mensaje</label>
+
+               <label>
+                Su mensaje:
+                <textarea name="message" cols="60"
+                rows="10"
+                placeholder="Escriba los detalles de su requerimiento"
+                name="message"
+                class="input-field"
+                required></textarea>
+              </label>
+
+
+            </div>
+            <input
+              type="submit"
+              value="Enviar"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">      
+      <a href="https://www.instagram.com/desarrolloweb_89/" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>    
+      <a href="#" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Derecho reservados 2022</p>      
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
